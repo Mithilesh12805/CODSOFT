@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="pflo.css">
+        <script src="https://kit.fontawesome.com/6eedd9742d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Logo_1_pflo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li> 
+                        <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>    
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                <p>Data Science Learner</p>
+                <h1>Hi,I'm <span>Mithilesh Kanade</span></h1><br>
+                <p class="para">Hi! I’m Mithilesh, a passionate Computer Science student with a keen interest in data science, machine learning, and mathematics. I love unraveling complex problems and leveraging data to drive insightful decisions. My journey in these fields has equipped me with a solid foundation in statistical analysis, algorithm development, and data visualization.
+                    <br><br>
+                
+                
+                </div>
+            </div>
+        </div>
+<!------------------------About-------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="aboutme1">
+                        <img src="pflo_pic.jpg">
+                    </div>
+                    <div class="aboutme2">
+                        <h1 class="sub-title"><br>About Me</h1><br>
+                        <p>Hello! I’m Mithilesh, a passionate Computer Science Engineering student dedicated to exploring the ever-evolving world of technology. With a strong foundation in programming, algorithms, and software development, I thrive on solving complex problems and creating innovative solutions<br><br>
+                            
+                            Feel free to explore my portfolio to see some of my projects and experiences. I’m excited to connect and collaborate!</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')"> Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('education')"> Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Python Programmer</span><br>Designing/Debugging in Python based softwares</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Java Development</span><br>Developing Java based softwares</li>
+                                <li><span>SQL / MongoDB</span><br>Database Management</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>2023-2024</span><br>Java & Python Developer at WBS</li>
+                                <li><span>2024-Current</span><br>JavaScript Remote-Intern at IIT,BOMBAY</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2019-2021</span><br>Secondary Education from APPS,Ahilyanagar</li>
+                                <li><span>2022-2023</span><br>Higher Secondary Education from Dr.BVPJC,Ahilyanagar</i>
+                                <li><span>2024-Current</span><br>Bachelor in Engineering from MESWCOE,Pune</i>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------services------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-brands fa-css3"></i>
+                        <h2>Web Design</h2>
+                            <p>In today’s digital landscape, your portfolio website is your first impression. Our web design services focus on creating visually striking, user-friendly sites that showcase your work in the best light. We combine creativity with functionality to craft a seamless experience for your visitors.</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_design">learn more..</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-codepen"></i>
+                        <h2>Backend Development</h2>
+                            <p>As a Backend Developer, I specialize in designing and implementing robust server-side applications. I have strong expertise in programming languages such as Java and Python, with experience using frameworks like Spring, Django, and Flask. I excel at building RESTful APIs and microservices, and I possess a solid understanding of both SQL and NoSQL databases. With strong problem-solving skills and proficiency in version control using Git, I focus on optimizing performance and ensuring the reliability of server-side operations.</p>
+                        <a href="https://www.simplilearn.com/tutorials/programming-tutorial/what-is-backend-development">learn more..</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Database Management</h2>
+                            <p>As a Database Management Developer, I specialize in designing and implementing efficient database solutions. I have strong expertise in both SQL and NoSQL databases, such as MySQL and MongoDB, and I excel at optimizing queries for performance and reliability. My experience includes database architecture, data modeling, and implementing data security measures. With a keen analytical mindset and proficiency in version control using Git, I focus on ensuring data integrity and seamless integration with applications.</p>
+                        <a href="https://www.techtarget.com/searchdatamanagement/definition/database-management-system">learn more..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------portfolio--------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1><br>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work_img1.jpg">
+                        <div class="layer">
+                            <h3><b>Social Media App</b></h3>
+                            <p>Social Media connects you to the talented people around the world.
+                            Download it from the play store.</p>
+                            <a href="https://www.instagram.com/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="calculator_img.jpg">
+                        <div class="layer">
+                            <h3><b>Calculator</b></h3>
+                            <p>Basic calculator for adding,subtracting,multipying,dividing and 'Clr' to clear the commands.</p>
+                            <a href="calci.html"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" , class="btn">See more..</a>
+            </div>
+        </div>
+        <!----------------------contact-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>mithileshkanade9751@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>(+91)70832 02143</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/mithilesh-kanade-6534a9278/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/mithilesh12805/"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://github.com/Mithilesh12805"><i class="fa-brands fa-square-github"></i></a>                      
+                        </div>
+                        <a href="" class="btn btn2">Download PDF</a>
+                    </div>
+                    <div class="contact-right">
+                        <form id="myform" name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button id="but" value="submit" type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Mithilesh Kanade</p>
+            </div>
+        </div>
+        <script>
+            let tablinks=document.getElementsByClassName("tab-links");
+            let tabcontent=document.getElementsByClassName("tab-content");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontents of tabcontent){
+                    tabcontents.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            let sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzSeLVZJQaVQKYYPGoWE-IPXzsCig6DLwqUcRVoEVu1PKs_P_009iiIL0SyPbXSq7vvvw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent succesfully!!!";
+                    setTimeout(function(){
+                        msg.innerHTML="";
+                    },3000)//for millisecond
+                    form.reset()    
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script>
+            document.getElementById("myform").addEventListener("submit",function(event){
+                event.preventDefault();
+                const but=document.getElementById("but");
+                but.style.backgroundColor="#0f1f01"
+                but.style.color="#fff"
+            })
+          </script>
+    </body>
+</html>
